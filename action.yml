@@ -25,5 +25,5 @@ runs:
         sfdx-version: '${{ inputs.sfdx-version }}'
         flow-name: build_feature_test_package
         commit-status-name: "Build Feature Test Package"
-        commit-status-regex: "\\(04t[a-zA-Z0-9]{15}\\)"
+        commit-status-regex: "04t[a-zA-Z0-9]{15}"
         commit-status-description-prefix: "version_id: "
